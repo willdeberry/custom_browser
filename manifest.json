@@ -1,0 +1,21 @@
+{
+	"name": "GetWellNetwork",
+	"description": "GetWellNetwork PLS Content",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["main.js"]
+		}
+	},
+	"icons": {
+		"16": "pls-16.png",
+		"128": "pls-128.png"
+	},
+	"permissions": [
+		"webview",
+		"fullscreen",
+		"overrideEscFullscreen"
+		]
+}
+
